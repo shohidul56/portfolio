@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SHOHIDUL</title>
+    <!-- RUBIK FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <!-- TEKO FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Teko&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- MMENU CSS LINK -->
+    <link rel="stylesheet" href="assets/css/mmenu.css">
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" >
+
+
+</head>
+
+<body>
+    <!-- back-to-top-button -->
+    <div class="back-button">
+        <button type="button" class="btn btn-danger btn-floating btn-lg fixed" id="btn-back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+    <!-- Header section -->
+    <div class="header_main">
+        <div class="navi_wrap fixed-top">
+            <div class="container">
+                <div class="header_wrap">
+                    <!-- logo navigation -->
+                    <div class="logo_navi d-flex ">
+                        <div class="logo">
+                            <a href="#">SHO<span class="logo_color">HIDUL</span></a>
+                        </div>
+
+
+                        <!-- Mmenu start -->
+                        <!-- The page -->
+                        <div class="page">
+                            <div id="header">
+                                <a href="#menu">
+                                    <span>
+                                        <button class="menu"
+                                            onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+                                            aria-label="Main Menu">
+                                            <svg width="40" height="40" viewBox="0 0 100 100">
+                                                <path class="line line1"
+                                                    d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                                                <path class="line line2" d="M 20,50 H 80" />
+                                                <path class="line line3"
+                                                    d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                                            </svg>
+                                        </button>
+                                    </span>
+
+                                </a>
+                                
+                            </div>
+                        </div>
+
+                        <!-- The menu -->
+                        <nav id="menu">
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="#about_target">About</a></li>
+                                <li><a href="#service_target">Service</a></li>
+                                <li><a href="#">Resume</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#get-touch">Contact</a></li>
+                                
+                            </ul>
+                        </nav>
+
+
+                        <!-- Mmenu End -->
+
+
+                        <!-- bootstrap navber start -->
+                        <nav class="navbar navbar-expand-md  boot_menu">
+                            <div class="container">
+
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page"
+                                                href="#about_target">About</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page"
+                                                href="#service_target">Service</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">Resume</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#get-touch">Contact</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <!-- bootstrap navber end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- BANNER SECTION -->
+        <div class="banner_main">
+            <div class="container">
+                <!-- banner -->
+                <div class="banner_wrap">
+                    <div class="welcome ">
+                        <h4>WELCOME TO MY WEBSITE</h4>
+                    </div>
+                    <div class="name_main">
+                        <div class="my_name ">
+                            <h5> I'm a <span class="mytype"></span></h5>
+                        </div>
+                    </div>
+                    <div class="social_me d-flex">
+                        <a href="#"><i class="fab fa-facebook-f so-pop"></i></a>
+                        <a href="#"><i class="fab fa-skype so-pop"></i></a>
+                        <a href="#"><i class="fa-brands fa-google-plus-g so-pop"></i></a>
+                        <a href="#"><i class="fab fa-twitter so-pop"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in so-pop"></i></a>
+                    </div>
+                    <div class="hire_me ">
+                        <button class="btn my_btn" type="button">Hire Me</button>
+                        <button class="btn my_btn" type="button">My Work</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About me -->
+    <div class="about_me bg-dark">
+        <div class="container">
+            <div class="about_main">
+                <div id="about_target">
+                    <h2>About Me</h2>
+                </div>
+            </div>
+            <div class="about_image">
+                <div class="card about_card flex-row border-0">
+                    <div class="about_picture col-lg-6 col-md-12 col-sm-12 ">
+                        <div class="image_wrap"><img src="assets/image/profile-pic.png" alt="image"></div>
+                    </div>
+                    <div class="card-body about_body col-lg-6 col-md-12 col-sm-12 ">
+
+                        <h3 class="card-title"> I am <span> MD Shohidul Islam</span> </h3>
+                        <h5 class="card-text">WEB DISIGNER & WEB DEVELOPER</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis veniam deleniti culpa
+                            distinctio nesciunt aliquam? In quos, maxime quidem recusandae aperiam veritatis molestiae
+                            officia soluta distinctio sequi? Quos, sunt nihil.</p>
+                        <div class="btn_wrap">
+                            <a href="#" class="btn about_btn js-scroll">DOWNLOAD MY CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MY Service -->
+    <div class="my-service">
+        <div class="container">
+            <div class="my-service-wrap">
+                <div class="about_main">
+                    <div id="service_target">
+                        <h2>My Service</h2>
+                    </div>
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <div class="card border-0 bg-transparent" style="width: 18rem;">
+                                    <div class="service-box">
+                                        <i class="fas fa-laptop-code eye"></i>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Web Development</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and
+                                            make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card border-0 bg-transparent" style="width: 18rem;">
+                                    <div class="service-box">
+                                        <i class="fas fa-compress-arrows-alt eye"></i>
+                                    </div>
+
+                                    <div class="card-body">
+                                        <h5 class="card-title">Responsive Design</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card border-0 bg-transparent" style="width: 18rem;">
+                                    <div class="service-box">
+                                        <i class="fas fa-share-alt eye"></i>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ui ux Design</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card border-0 bg-transparent" style="width: 18rem;">
+                                    <div class="service-box">
+                                        <i class="far fa-chart-bar eye"></i>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">SEO Optimization </h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card border-0 bg-transparent" style="width: 18rem;">
+                                    <div class="service-box">
+                                        <i class="fas fa-tools eye"></i>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Fast Communication </h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MY SKILL SECTION -->
+
+    <section>
+        <div class="my-skill-main">
+            <div class="container">
+                <div class="my-skill-wrap">
+                    <div class="tag-name">
+                        <div class="about_main">
+                            <div id="about_skill">
+                                <h2>My Skills</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-skill-content">
+                        <div class="row">
+                            <div class="col-md-6">
+
+                                <div class="progress-info">
+                                    <div class="bar"><span>HTML</span></div>
+                                    <div class="progress-line HTML"><span style="width:90%;"></span></div>
+                                </div>
+
+                                <div class="progress-info">
+                                    <div class="bar">
+                                        <span>CSS3</span>
+                                    </div>
+                                    <div class="progress-line CSS3"><span style="width:90%;"></span></div>
+                                </div>
+
+                                <div class="progress-info">
+                                    <div class="bar"><span>JavaScript</span></div>
+                                    <div class="progress-line JavaScript"><span style="width:60%;"></span></div>
+                                </div>
+
+                                <div class="progress-info">
+                                    <div class="bar"><span>Jquery</span></div>
+                                    <div class="progress-line Jquery"><span style="width:50%;"></span></div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <div class="progress-info">
+                                    <div class="bar"><span>PHP</span></div>
+                                    <div class="progress-line PHP"><span style="width:30%;"></span></div>
+                                </div>
+                                <div class="progress-info">
+                                    <div class="bar"><span>PSD TO HTML</span></div>
+                                    <div class="progress-line PSDtoHTML"><span style="width:95%;"></span></div>
+                                </div>
+                                <div class="progress-info">
+                                    <div class="bar"><span>Responsive</span></div>
+                                    <div class="progress-line Responsive"><span style="width:100%;"></span></div>
+                                </div>
+                                <div class="progress-info">
+                                    <div class="bar"><span>Bootstrap</span></div>
+                                    <div class="progress-line Bootstrap"><span style="width:70%;"></span></div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end my skill -->
+
+    <!-- get in touch start -->
+
+    <section>
+        <div class="get-touch">
+            <div class="container">
+                <div class="get-touch-wrap" id="get-touch">
+                    <div class="about_main">
+                        <div id="get">
+                            <h2>Get In Touch</h2>
+                        </div>
+                    </div>
+
+                    <div class="input-form">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="email" id="email" placeholder="Email ID" required>
+                        <input type="text" id="phone" placeholder="Phone no." required>
+                        <textarea name="name" id="message" rows="4" placeholder="Message"></textarea>
+                        <div class="btn_wrap">
+                            <a href="#" class="btn about_btn js-scroll">Send message</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- get in touch start -->
+
+    <!-- map start -->
+
+    
+        <div class="my-map-wrap">
+            <iframe class="map-in"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.0856792315594!2d90.37061631450203!3d23.744323894926325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bf4b7a19a463%3A0x2be1530e2121e121!2sDhanmondi%2015!5e0!3m2!1sen!2sbd!4v1661578351650!5m2!1sen!2sbd"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    
+
+    <!-- map end -->
+    <!-- footer section start -->
+
+    <div class="footer-main">
+        <div class="container">
+            <div class="fotter-wrap">
+                <div class="media">
+                    <div class="media-font">
+                        <a href="#"><i class="fab fa-facebook-f so-pop"></i></a>
+                    </div>
+                    <div class="media-font">
+                        <a href="#"><i class="fab fa-twitter so-pop"></i></a>
+                    </div>
+                    <div class="media-font">
+                        <a href="#"><i class="fab fa-linkedin-in so-pop"></i></a>
+                    </div>
+                    <div class="media-font">
+                        <a href="#"><i class="fa-brands fa-google-plus-g so-pop"></i></a>
+                    </div>
+                    <div class="media-font">
+                        <a href="#"><i class="fab fa-skype so-pop"></i></a>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright © 2022 - All Right Reserved.</p>
+                    <p> Designed by Shohidul.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section end -->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Jquery -->
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- my-js -->
+    <script src="assets/js/main.js"></script>
+    <!-- MMENU JS -->
+    <script src="assets/js/mmenu.js"></script>
+
+    <script>
+        document.addEventListener(
+            "DOMContentLoaded", () => {
+                new Mmenu("#menu", {
+                    "offCanvas": {
+                        "position": "left-front"
+                    },
+                    "theme": "light"
+                });
+            }
+        );
+    </script>
+
+    <!-- Mmenu end -->
+    <!-- fontawesome js -->
+    <script src="assets/js/all.min.js"></script>
+
+
+
+
+</body>
+
+</html>
