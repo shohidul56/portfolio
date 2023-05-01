@@ -435,7 +435,18 @@
     <!-- MMENU JS -->
     <script src="assets/js/mmenu.js"></script>
 
-
+    <script>
+        document.addEventListener(
+            "DOMContentLoaded", () => {
+                new Mmenu("#menu", {
+                    "offCanvas": {
+                        "position": "left-front"
+                    },
+                    "theme": "light"
+                });
+            }
+        );
+    </script>
 
     <!-- Mmenu end -->
     <!-- fontawesome js -->
